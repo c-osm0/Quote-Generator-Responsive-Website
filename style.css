@@ -4,6 +4,21 @@ html{
     box-sizing: border-box;
 }
 
+.title{
+   position: absolute;
+   top: 50px;
+   left: 40%;
+    border-top:  5px solid black;
+    border-bottom:  5px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding:0px ;
+    
+}
+.title h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     margin: 0;
     min-height: 100vh;
@@ -101,5 +116,17 @@ button:active{
     .quote-text{
         font-size: 2.5rem;
     }
-    
+    .title{
+        position: absolute;
+        top: 40px;
+        left: 28%;
+        
+       
+         
+         
+     }
+     .title h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
 }
